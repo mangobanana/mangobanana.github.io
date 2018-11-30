@@ -1,37 +1,69 @@
-p {
-	color: blue;
-}
 h1 {
-    border-style: solid;
-    border-width: 10px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: yellow;
-	margin: 10px;
-    padding: 20px;
-	
-}
-ul{
-	list-style-type: none; 
-	margin: 0;
-	padding: 0;
-	width: 200px;
-	background-color: #f1f1f1;
-}
-li a {
-	display: block;
-	color: #000;
-	padding: 8px 16px;
-	text-decoration: none;
-}
-li a:hover{
-	background-color: #555;
-	color: white;
-}
-h1 {
-	text-align: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(149, 85, 25, 0.267);
+    margin: 75px;
+    padding: 20px
 }
 
 body {
-	background-image: url("http://www.mango.org/Mangos/media/Media/Images/Recipes/Beauty%20Images/Blog_Beauty_Shot2_682X370.jpg");
-} 
+    background-color: khaki;
+}
+
+img {
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: rotate(180deg)
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(41, 37, 37);
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    background-color:rgb(41, 37, 37);
+    text-decoration: none;
+    color: rgba(0, 255, 170, 0.774)
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: chocolate;
+}
+
+.message {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+div.advertisement {
+    margin: 5px;
+    border: 1px solid rgb(146, 144, 3);
+    float: left;
+    width: 180px;
+}
+
+div.advertisement img {
+    width: 100%;
+    height: auto;
+}
+
+div.advertisement:hover {
+    border: 1px solid black;
+}
