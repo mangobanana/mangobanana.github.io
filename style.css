@@ -10,13 +10,7 @@ body {
     background-color: khaki;
 }
 
-img {
-    transition: transform 1s;
-}
 
-img:hover {
-    transform: rotate(180deg)
-}
 
 nav ul {
     list-style-type: none; 
@@ -56,7 +50,7 @@ div.advertisement {
     margin: 5px;
     border: 1px solid rgb(146, 144, 3);
     float: left;
-    width: 180px;
+    width: 300px;
 }
 
 div.advertisement img {
@@ -67,3 +61,72 @@ div.advertisement img {
 div.advertisement:hover {
     border: 1px solid black;
 }
+
+#prices {
+    position: absolute;
+    right: 15px;
+
+}
+
+#desperate {
+    position: absolute;
+    right: 450px;
+
+}
+
+div.info {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+#secret:hover {
+    border: 1px solid black;
+}
+
+#secret {
+    position: absolute;
+    right: 550px;
+}
+
+#door {
+    position: fixed;
+    width: 300px;
+    height: 700px;
+}
+
+#door:hover {
+    transform: rotateY(90deg);
+    transition: 1s;
+}
+
+#support {
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    height:600px;
+}
+
+.sketchy {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.comfort {
+    position: absolute;
+    right: 0;
+}
+
+.look {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+.look:hover {
+    transform: rotateX(90deg);
+    transition: 1s;
+}
+
